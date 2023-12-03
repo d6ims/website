@@ -1,3 +1,12 @@
+.footer-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    /* max-width: 1140px; */
+    max-width: 80%;
+}
+
 li:before {
     font-family: "FontAwesome";
     content: '\f124';
@@ -5,8 +14,45 @@ li:before {
     padding-right: 3px;
     vertical-align: middle;
     font-weight: 900;
- }
-.footer-wrapper {
+}
+
+.footer-wrapper,
+.footer-box-content {
     color: #fff;
-    font-size: 2rem;
+    font-size: 20px;
+    /* background: linear-gradient(45deg, #c329d4, transparent); */
+    background: linear-gradient(45deg, #09000a, transparent);
+}
+
+.footer-logo {
+    width: 100%;
+}
+
+.footer-text-content,
+.footer-logo-content {
+    margin: 10px;
+}
+
+.footer-wrap {
+    display: flex;
+    padding: 10px;
+}
+
+.email-content-text,
+.phone-number-text,
+.footer-text-address {
+    margin: 0;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+
+.email-content-text a,
+.email-content-icon a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-social-media-wrap i {
+    margin-right: 20px;
+    margin-top: 10px;
 }

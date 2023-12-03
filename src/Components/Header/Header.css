@@ -1,15 +1,11 @@
-.heaedr-dummy {
-    /* height: 5rem; */
-}
 
 .header-wrapper {
     position: fixed;
-    /* margin-top: -5rem; */
     width: 100%;
     z-index: 9100;
-    /* background: linear-gradient(45deg, black, transparent); */
-    background-color: #d017f5c4;
-    /* background-image: repeating-linear-gradient(36deg, rgba(255,255,255, 0.1), rgba(255,255,255, 0.1) 1px, transparent 0px, transparent 2px); */
+    /* background: linear-gradient(45deg, #b506c9, transparent); */
+    background: linear-gradient(45deg, #09000a, transparent);
+
 }
 
 .header-home-navm {
