@@ -3,24 +3,13 @@
     margin: auto;
     align-items: center;
     position: relative;
-    /* max-width: 1140px; */
     max-width: 80%;
-}
-
-li:before {
-    font-family: "FontAwesome";
-    content: '\f124';
-    display: inline-block;
-    padding-right: 3px;
-    vertical-align: middle;
-    font-weight: 900;
 }
 
 .footer-wrapper,
 .footer-box-content {
     color: #fff;
     font-size: 20px;
-    /* background: linear-gradient(45deg, #c329d4, transparent); */
     background: linear-gradient(45deg, #09000a, transparent);
 }
 

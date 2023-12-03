@@ -1,5 +1,5 @@
 
-.header-wrapper {
+.header-container {
     position: fixed;
     width: 100%;
     z-index: 9100;
@@ -8,6 +8,11 @@
 
 }
 
+.header-wrapper {
+    max-width: 80%;
+    margin: auto;
+
+}
 .header-home-navm {
     display: inline-block;
 }

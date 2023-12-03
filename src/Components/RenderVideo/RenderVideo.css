@@ -1,3 +1,7 @@
+.home-banner {
+    max-width: 80%;
+    margin: auto;
+}
 .home-banner video {
     width: 100%;
     margin-top: 86px;
