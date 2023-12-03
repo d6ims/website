@@ -1,0 +1,12 @@
+li:before {
+    font-family: "FontAwesome";
+    content: '\f124';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+ }
+.footer-wrapper {
+    color: #fff;
+    font-size: 2rem;
+}
