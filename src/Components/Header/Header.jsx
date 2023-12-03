@@ -10,10 +10,10 @@ const Header = () => {
 
     const navigationPosition = (event) => {
         const hash = event.target.name;
-        switch(hash) {
+        switch (hash) {
             case "projects":
-               projects.current.scrollIntoView();
-               break;
+                projects.current.scrollIntoView();
+                break;
             case "missions":
                 missions.current.scrollIntoView();
                 break;
@@ -21,7 +21,7 @@ const Header = () => {
                 about.current.scrollIntoView();
                 break;
             case "contactus":
-                contactus.current.scrollIntoView(); 
+                contactus.current.scrollIntoView();
                 break;
             case "academy":
                 academy.current.scrollIntoView();
@@ -35,19 +35,19 @@ const Header = () => {
         <div className="header-container">
             <div className='heaedr-dummy'></div>
             <div className='header-wrapper'>
-            <a href="/" className="header-home-nav" aria-label="home">
-                <img src="/images/logo.png" alt="" className="logo" />
-            </a>
-            <nav role="navigation" className="nav-menu">
-                <div className="nav-menu-wrap">
-                    <button ref={about} name="about" onClick={navigationPosition}  className="nav-btn" >About us </button>
-                    <button ref={projects} name="projects" onClick={navigationPosition}  className="nav-btn --selected" > Projects </button>
-                    <button ref={missions} name="missions" onClick={navigationPosition}  className="nav-btn" > Our missions </button>
-                    <button ref={contactus} name="conactus" onClick={navigationPosition}  className="nav-btn" > Contact Us </button>
-                    <button ref={academy} name="academy" onClick={navigationPosition}  className="nav-btn nav-btn--academy" > Academy </button>
-                </div>
-            </nav>
+                <a href="/" className="header-home-nav" aria-label="home">
+                    <img src="/images/logo.png" alt="" className="logo" />
+                </a>
+                <nav role="navigation" className="nav-menu">
+                    <div className="nav-menu-wrap">
+                        <button ref={about} name="about" onClick={navigationPosition} className="nav-btn" >About us </button>
+                        <button ref={projects} name="projects" onClick={navigationPosition} className="nav-btn --selected" > Projects </button>
+                        <button ref={missions} name="missions" onClick={navigationPosition} className="nav-btn" > Our missions </button>
+                        <button ref={contactus} name="conactus" onClick={navigationPosition} className="nav-btn" > Contact Us </button>
+                        <button ref={academy} name="academy" onClick={navigationPosition} className="nav-btn nav-btn--academy" > Academy </button>
+                    </div>
+                </nav>
             </div>
-            </div>);
+        </div>);
 };
 export default Header;

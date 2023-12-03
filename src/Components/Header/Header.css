@@ -3,8 +3,8 @@
     position: fixed;
     width: 100%;
     z-index: 9100;
-    /* background: linear-gradient(45deg, #b506c9, transparent); */
-    background: linear-gradient(45deg, #09000a, transparent);
+    background: linear-gradient(45deg, #b506c9, transparent);
+    /* background: linear-gradient(45deg, #09000a, transparent); */
 
 }
 
@@ -31,11 +31,10 @@
 }
 
 .nav-menu {
-    margin: 1rem auto;
+    margin: 13px auto;
     float: right;
 }
 
 .logo {
     width: 25%;
-    margin: 1rem;
 }
